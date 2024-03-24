@@ -41,31 +41,68 @@ header {
 }
 
 .header-title {
-    margin: 10px;
+    margin: 20px;
+
     font-family: "Krona One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 main {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
     font-family: "Inter", sans-serif;
 }
 
 .main-text-introdution {
-    border: 1px solid red;
-    margin: 20px;
+    margin: 40px;
+    
+    font-size: 30px;
 }
 
 .main-recommendation-form {
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+
     display: flex;
-    flex-direction: column;
-    border: 1px solid red;
-    padding: 20px;
+    justify-content: center;
+
+    font-size: 34px;
+    font-weight: 500;
+    font-style: bold;
 }
 
-footer {
+.main-recommendation-form select {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 295px;
+    height: 30px;
 
+    font-size: 25px;
+    font-weight: 15px;
+}
+
+.main-recommendation-form td {
+    padding: 18px;
+}
+
+.boolean-adult-radio {
+    font-size: 20px;
+}
+
+.boolean-adult-radio label {
+    margin: 10px;
+}
+
+.main-recommendation-form button {
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+    width: 50%;
+
+    border-radius: 10px;
+
+    background-color: black;
+    color: white;
 }
